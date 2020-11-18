@@ -1,13 +1,44 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root{
+    --bug: linear-gradient(90deg, rgba(181,24,102,1) 4%, rgba(128,128,0,1) 25%, rgba(128,128,0,1) 75%, rgba(255,108,181,1) 96%);
+    --dark : linear-gradient(90deg, rgba(181,24,102,1) 4%, rgba(0, 66, 66, 1) 25%, rgba(0, 66, 66, 1) 75%, rgba(255,108,181,1) 96%);
+    --dragon :linear-gradient(90deg, rgba(181,24,102,1) 4%, rgba(75, 0, 130,1) 25%, rgba(75, 0, 130,1) 75%, rgba(255,108,181,1) 96%);
+    --electric: linear-gradient(90deg, rgba(181,24,102,1) 4%, rgba(255,255,0,1) 25%, rgba(255,252,4,1) 75%, rgba(255,108,181,1) 96%);;
+    --fairy: linear-gradient(90deg, rgba(181,24,102,1) 4%, rgba(249, 132, 229,1) 25%, rgba(249, 132, 229,1) 75%, rgba(255,108,181,1) 96%);
+    --fighting: linear-gradient(90deg, rgba(181,24,102,1) 4%, rgb(128, 0, 0, 1) 25%, rgb(128, 0, 0, 1) 75%, rgba(255,108,181,1) 96%);
+    --fire: linear-gradient(90deg, rgba(181,24,102,1) 4%, rgba(255, 165, 0, 1) 25%, rgba(255, 165, 0, 1) 75%, rgba(255,108,181,1) 96%);
+    --flying: linear-gradient(90deg, rgba(181,24,102,1) 4%, rgba(154, 206, 235,1) 25%, rgba(154, 206, 235,1) 75%, rgba(255,108,181,1) 96%);
+    --ghost: linear-gradient(90deg, rgba(181,24,102,1) 4%, rgba(148, 0, 211,1) 25%, rgba(148, 0, 211,1) 75%, rgba(255,108,181,1) 96%);
+    --grass: linear-gradient(90deg, rgba(181,24,102,1) 4%, rgba(0, 255, 0,1) 25%, rgba(0, 255, 0,1) 75%, rgba(255,108,181,1) 96%);
+    --ground: linear-gradient(90deg, rgba(181,24,102,1) 4%, rgba(194, 178, 128,1) 25%, rgba(194, 178, 128,1) 75%, rgba(255,108,181,1) 96%);
+    --ice: linear-gradient(90deg, rgba(181,24,102,1) 4%, rgba(0, 255, 255,1) 25%, rgba(0, 255, 255,1) 75%, rgba(255,108,181,1) 96%);
+    --normal: linear-gradient(90deg, rgba(181,24,102,1) 4%, rgba(128, 128, 128,1) 25%, rgba(128, 128, 128,1) 75%, rgba(255,108,181,1) 96%);
+    --poison: linear-gradient(90deg, rgba(181,24,102,1) 4%, rgba(128, 0, 128,1) 25%, rgba(128, 0, 128,1) 75%, rgba(255,108,181,1) 96%);
+    --psychic: linear-gradient(90deg, rgba(181,24,102,1) 4%, rgba(255, 105, 180,1) 25%, rgba(255, 105, 180,1) 75%, rgba(255,108,181,1) 96%);
+    --rock: linear-gradient(90deg, rgba(181,24,102,1) 4%, rgba(165, 42, 42,1) 25%, rgba(165, 42, 42,1) 75%, rgba(255,108,181,1) 96%);
+    --steel: linear-gradient(90deg, rgba(181,24,102,1) 4%, rgba(128, 128, 128,1) 25%, rgba(128, 128, 128,1) 75%, rgba(255,108,181,1) 96%);
+    --water: linear-gradient(90deg, rgba(181,24,102,1) 4%, rgba(0, 127, 255,1) 25%, rgba(0, 127, 255,1) 75%, rgba(255,108,181,1) 96%);
+
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    width: 100%;
+    height: 100vh; 
+    font-family: sans-serif;
+    background-color: #dfe6e9;
+    box-sizing: border-box;
+}
+
+button{
+    font-family: sans-serif;
+    padding: 5px 10px;
 }

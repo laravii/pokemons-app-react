@@ -1,3 +1,9 @@
+# Pokedex para busca de Pokémons.
+
+ Deve-se pesquisar por nome ou numero do pokémon, e ele retornará o pokémon escolhido
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
