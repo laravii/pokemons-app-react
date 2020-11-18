@@ -1,6 +1,8 @@
 # Pokedex para busca de Pokémons.
 
  Deve-se pesquisar por nome ou numero do pokémon, e ele retornará o pokémon escolhido
+ 
+![Captura de Tela 2020-11-18 às 17 46 54](https://user-images.githubusercontent.com/66284603/99586245-34bd0b80-29c6-11eb-9cb7-0f67723bf5ba.jpg)
 
 
 
