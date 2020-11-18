@@ -4,6 +4,11 @@
  
 ![Captura de Tela 2020-11-18 às 17 46 54](https://user-images.githubusercontent.com/66284603/99586245-34bd0b80-29c6-11eb-9cb7-0f67723bf5ba.jpg)
 
+Após requisitar a pesquisa ele retorna o Pokemón escolhido em um card
+![Captura de Tela 2020-11-18 às 17 47 18](https://user-images.githubusercontent.com/66284603/99586370-66ce6d80-29c6-11eb-87c0-839af4579449.jpg)
+
+Codigo feito em React, com uso de styled-components e axios para conexão com a API
+
 
 
 # Getting Started with Create React App
