@@ -1,13 +1,16 @@
-# Pokedex para busca de Pokémons.
+# Pokedex em ReactJS
 
- Deve-se pesquisar por nome ou numero do pokémon, e ele retornará o pokémon escolhido
- 
-![Captura de Tela 2020-11-18 às 17 46 54](https://user-images.githubusercontent.com/66284603/99586245-34bd0b80-29c6-11eb-9cb7-0f67723bf5ba.jpg)
+Nessa aplicação feita em ReactJS foi feita uma requisição HTTPS na PokeApi com Axios para captação dos Pokemóns e exibição na tela. 
 
-Após requisitar a pesquisa ele retorna o Pokemón escolhido em um card
-![Captura de Tela 2020-11-18 às 17 47 18](https://user-images.githubusercontent.com/66284603/99586370-66ce6d80-29c6-11eb-87c0-839af4579449.jpg)
+Na tela inicial são renderizados todos os Pokemons da primeira página (páginação será a próxima atualização rsrs)
+![pokemons-initial-screen](https://user-images.githubusercontent.com/66284603/102136159-c853f180-3e37-11eb-8b0a-80fdc7b6d84c.png)
 
-Codigo feito em React, com uso de styled-components e axios para conexão com a API
+Também é possível realizar a pesquisa por nome ou número do Pokémon, como o exemplo abaixo:
+![Captura de Tela 2020-12-14 às 17 39 55](https://user-images.githubusercontent.com/66284603/102136380-11a44100-3e38-11eb-93d5-a3b74f6acc96.jpg)
+
+
+E durante o Load da pesquisa, ou carregamento de todos os Pokémons o nosso querido Pikachu vai buscar nossos amiguinhos correndo :grin:
+![Captura de Tela 2020-12-14 às 17 39 30](https://user-images.githubusercontent.com/66284603/102136760-9a22e180-3e38-11eb-9e33-fa89e6e5715a.jpg)
 
 
 
