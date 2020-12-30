@@ -1,147 +1,147 @@
 :root {
-	--bug: linear-gradient(
-		90deg,
-		#00000000 4%,
-		#808000 25%,
-		#808000 75%,
-		#00000000 96%
-	);
-	--dark: linear-gradient(
-		90deg,
-		#00000000 4%,
-		#004242 25%,
-		#004242 75%,
-		#00000000 96%
-	);
-	--dragon: linear-gradient(
-		90deg,
-		#00000000 4%,
-		#4b0082 25%,
-		#4b0082 75%,
-		#00000000 96%
-	);
-	--electric: linear-gradient(
-		90deg,
-		#00000000 4%,
-		#ffff00 25%,
-		#fffc04 75%,
-		#00000000 96%
-	);
-	--fairy: linear-gradient(
-		90deg,
-		#00000000 4%,
-		#f984e5 25%,
-		#f984e5 75%,
-		#00000000 96%
-	);
-	--fighting: linear-gradient(
-		90deg,
-		#00000000 4%,
-		#800000 25%,
-		#800000 75%,
-		#00000000 96%
-	);
-	--fire: linear-gradient(
-		90deg,
-		#00000000 4%,
-		rgba(255, 165, 0, 1) 25%,
-		rgba(255, 165, 0, 1) 75%,
-		#00000000 96%
-	);
-	--flying: linear-gradient(
-		90deg,
-		#00000000 4%,
-		#ffa500 25%,
-		#ffa500 75%,
-		#00000000 96%
-	);
-	--ghost: linear-gradient(
-		90deg,
-		#00000000 4%,
-		#9400d3 25%,
-		#9400d3 75%,
-		#00000000 96%
-	);
-	--grass: linear-gradient(
-		90deg,
-		#00000000 4%,
-		#00ca00 25%,
-		#00ca00 75%,
-		rgba(255, 108, 181, 0) 96%
-	);
-	--ground: linear-gradient(
-		90deg,
-		#00000000 4%,
-		rgba(194, 178, 128, 1) 25%,
-		rgba(194, 178, 128, 1) 75%,
-		#00000000 96%
-	);
-	--ice: linear-gradient(
-		90deg,
-		#00000000 4%,
-		#c2b280 25%,
-		#c2b280 75%,
-		#00000000 96%
-	);
-	--normal: linear-gradient(
-		90deg,
-		#00000000 4%,
-		#808080 25%,
-		#808080 75%,
-		#00000000 96%
-	);
-	--poison: linear-gradient(
-		90deg,
-		#00000000 4%,
-		rgba(128, 0, 128, 1) 25%,
-		rgba(128, 0, 128, 1) 75%,
-		#00000000 96%
-	);
-	--psychic: linear-gradient(
-		90deg,
-		#00000000 4%,
-		#800080 25%,
-		#800080 75%,
-		#00000000 96%
-	);
-	--rock: linear-gradient(
-		90deg,
-		#00000000 4%,
-		#a52a2a 25%,
-		#a52a2a 75%,
-		#00000000 96%
-	);
-	--steel: linear-gradient(
-		90deg,
-		#00000000 4%,
-		#808080 25%,
-		#808080 75%,
-		#00000000 96%
-	);
-	--water: linear-gradient(
-		90deg,
-		#00000000 4%,
-		#007fff 25%,
-		#007fff 75%,
-		#00000000 96%
-	);
+  --bug: linear-gradient(
+    90deg,
+    #00000000 4%,
+    #808000 25%,
+    #808000 75%,
+    #00000000 96%
+  );
+  --dark: linear-gradient(
+    90deg,
+    #00000000 4%,
+    #004242 25%,
+    #004242 75%,
+    #00000000 96%
+  );
+  --dragon: linear-gradient(
+    90deg,
+    #00000000 4%,
+    #4b0082 25%,
+    #4b0082 75%,
+    #00000000 96%
+  );
+  --electric: linear-gradient(
+    90deg,
+    #00000000 4%,
+    #ffff00 25%,
+    #fffc04 75%,
+    #00000000 96%
+  );
+  --fairy: linear-gradient(
+    90deg,
+    #00000000 4%,
+    #f984e5 25%,
+    #f984e5 75%,
+    #00000000 96%
+  );
+  --fighting: linear-gradient(
+    90deg,
+    #00000000 4%,
+    #800000 25%,
+    #800000 75%,
+    #00000000 96%
+  );
+  --fire: linear-gradient(
+    90deg,
+    #00000000 4%,
+    rgba(255, 165, 0, 1) 25%,
+    rgba(255, 165, 0, 1) 75%,
+    #00000000 96%
+  );
+  --flying: linear-gradient(
+    90deg,
+    #00000000 4%,
+    #ffa500 25%,
+    #ffa500 75%,
+    #00000000 96%
+  );
+  --ghost: linear-gradient(
+    90deg,
+    #00000000 4%,
+    #9400d3 25%,
+    #9400d3 75%,
+    #00000000 96%
+  );
+  --grass: linear-gradient(
+    90deg,
+    #00000000 4%,
+    #00ca00 25%,
+    #00ca00 75%,
+    rgba(255, 108, 181, 0) 96%
+  );
+  --ground: linear-gradient(
+    90deg,
+    #00000000 4%,
+    rgba(194, 178, 128, 1) 25%,
+    rgba(194, 178, 128, 1) 75%,
+    #00000000 96%
+  );
+  --ice: linear-gradient(
+    90deg,
+    #00000000 4%,
+    #c2b280 25%,
+    #c2b280 75%,
+    #00000000 96%
+  );
+  --normal: linear-gradient(
+    90deg,
+    #00000000 4%,
+    #808080 25%,
+    #808080 75%,
+    #00000000 96%
+  );
+  --poison: linear-gradient(
+    90deg,
+    #00000000 4%,
+    rgba(128, 0, 128, 1) 25%,
+    rgba(128, 0, 128, 1) 75%,
+    #00000000 96%
+  );
+  --psychic: linear-gradient(
+    90deg,
+    #00000000 4%,
+    #800080 25%,
+    #800080 75%,
+    #00000000 96%
+  );
+  --rock: linear-gradient(
+    90deg,
+    #00000000 4%,
+    #a52a2a 25%,
+    #a52a2a 75%,
+    #00000000 96%
+  );
+  --steel: linear-gradient(
+    90deg,
+    #00000000 4%,
+    #808080 25%,
+    #808080 75%,
+    #00000000 96%
+  );
+  --water: linear-gradient(
+    90deg,
+    #00000000 4%,
+    #007fff 25%,
+    #007fff 75%,
+    #00000000 96%
+  );
 }
 
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-	font-size: 16px;
+  font-size: 16px;
 }
 
 body {
-	width: 100%;
-	height: 100%;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	background-color: #44494c;
-	color: #000;
+  width: 100%;
+  height: 100%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #44494c;
+  color: #000;
 }

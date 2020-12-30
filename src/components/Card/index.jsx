@@ -8,12 +8,12 @@ import {
   PokeImg,
   InfosContainer,
   Infos,
-  FadeIn
+  FadeIn,
 } from './styles';
 
-//usado desconstrutor para pegar as informações do componente pai          
+//usado desconstrutor para pegar as informações do componente pai
 export const Card = ({ name, number, img, type, weight, height }) => {
-  const backcolor = `var(--${type})`
+  const backcolor = type !== '' ? `var(--${type})` : 'white';
 
   return (
     //a propriedade color passa a cor do background definido nas variáveis globais
@@ -31,8 +31,7 @@ export const Card = ({ name, number, img, type, weight, height }) => {
           <Infos area='height'>Altura: {Math.round(height * 30.48)} cm</Infos>
           <Infos area='weight'> Peso: {Math.round(weight * 0.453592)} kg</Infos>
         </InfosContainer>
-
       </CardContainer>
     </FadeIn>
   );
-}
+};
