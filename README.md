@@ -2,8 +2,11 @@
 
 Nessa aplicação feita em ReactJS foi feita uma requisição HTTPS na PokeApi com Axios para captação dos Pokemóns e exibição na tela. 
 
-Na tela inicial são renderizados todos os Pokemons da primeira página (páginação será a próxima atualização rsrs)
+Na tela inicial são renderizados todos os Pokemons da primeira página, onde é possível a navegação através da paginação.
+
 ![pokemons-initial-screen](https://user-images.githubusercontent.com/66284603/102136159-c853f180-3e37-11eb-8b0a-80fdc7b6d84c.png)
+![Captura de Tela 2021-01-13 às 14 27 43](https://user-images.githubusercontent.com/66284603/104487546-01ed5900-55ac-11eb-9077-81a6988a0ddc.jpg)
+
 
 Também é possível realizar a pesquisa por nome ou número do Pokémon, como o exemplo abaixo:
 ![Captura de Tela 2020-12-14 às 17 39 55](https://user-images.githubusercontent.com/66284603/102136380-11a44100-3e38-11eb-93d5-a3b74f6acc96.jpg)
